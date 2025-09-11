@@ -115,9 +115,6 @@ font-family: "Raleway",
     align-items: center;
     gap: 40px;
 }
-.contacts-item {
-    margin-right: 0;
-}
 
 .contacts-link {
         display: block;
@@ -312,15 +309,15 @@ box-sizing: border-box;
 .team-container {
 
     max-width: 1158px;
-    padding: 32px 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin: 0 auto;
     display: block;
-    padding: 32px 0;
+    width: 100%;
 }
 .team-card {
     width: calc((100% - 72px) / 4);
     background: #fff;
-    display: block;
     max-width: 264px;
     border-radius: 0 0 4px 4px;
     padding-block: 0px 32px;
