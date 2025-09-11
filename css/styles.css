@@ -110,8 +110,8 @@ font-family: "Raleway",
     font-style: normal;
     margin-left: auto;
 }
-.contacts-list{
-     display: flex;
+.contacts-list {
+    display: flex;
     align-items: center;
     gap: 40px;
 }
@@ -126,6 +126,7 @@ font-family: "Raleway",
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        
        
 }
 
@@ -314,11 +315,12 @@ box-sizing: border-box;
     padding: 32px 0;
     margin: 0 auto;
     display: block;
+    padding: 32px 0;
 }
 .team-card {
+    width: calc((100% - 72px) / 4);
     background: #fff;
     display: block;
-    width: calc((100% - 72px) / 4);
     max-width: 264px;
     border-radius: 0 0 4px 4px;
     padding-block: 0px 32px;
