@@ -114,6 +114,9 @@ font-family: "Raleway",
     display: flex;
     align-items: center;
     gap: 40px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .contacts-link {
@@ -309,8 +312,7 @@ box-sizing: border-box;
 .team-container {
 
     max-width: 1158px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
     margin: 0 auto;
     display: block;
     width: 100%;
