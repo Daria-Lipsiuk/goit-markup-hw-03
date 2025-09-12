@@ -114,9 +114,6 @@ font-family: "Raleway",
     display: flex;
     align-items: center;
     gap: 40px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .contacts-link {
