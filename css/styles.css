@@ -136,7 +136,7 @@ font-family: "Raleway",
 
 
 /* common main section 1*/
-.post-container{
+.container{
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
@@ -254,24 +254,6 @@ position: absolute;
     padding: 120px 0;
  }
 
-.description-container {
-    max-width: 1158px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: block;
-    
-}
-/*
-.container {
-    max-width:
-    padding-left: 
-    padding-right:
-    margin-left:
-    margin-right:
-}
-
-*/
 
 .description-list {
     display: flex;
@@ -306,14 +288,7 @@ box-sizing: border-box;
     margin: 0;
     list-style: none; 
 }
-.team-container {
 
-    max-width: 1158px;
-    padding: 32px 0;
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-}
 .team-card {
     width: calc((100% - 72px) / 4);
     background: #fff;
@@ -340,6 +315,9 @@ box-sizing: border-box;
         text-transform: capitalize;
         margin-bottom: 72px;
 } 
+.team-text {
+        padding: 32px 0;
+}
 .team-text .feature-title {
     font-weight: 500;
         font-size: 20px;
@@ -404,12 +382,7 @@ box-sizing: border-box;
   height: auto;
   display: block;
 }
-  .contacts-container {
-  max-width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-  
+
 .contacts-section {
   padding: 120px 0;
   background-color: #f4f4f4;
