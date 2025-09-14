@@ -368,13 +368,12 @@ box-sizing: border-box;
   color: #2e2f42;
   }
  
-  .contacts-item {
+  .portfolio-item {
   position: relative;
-  width: calc((100% - 48px) / 3); /* 3 картки в ряд */
+  width: calc((100% - 48px) / 3); 
   max-width: 360px;
   overflow: hidden;
   border-radius: 10px;
-  
   background-color: #fff;
   }
   .contacts-item img {
@@ -387,7 +386,7 @@ box-sizing: border-box;
   padding: 120px 0;
   background-color: #f4f4f4;
 }
- .contacts-list {
+ .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
