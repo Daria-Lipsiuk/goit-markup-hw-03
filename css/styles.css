@@ -140,7 +140,6 @@ font-family: "Raleway",
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
-    text-align: center;
 }
 
 
@@ -292,16 +291,12 @@ box-sizing: border-box;
 .team-card {
     width: calc((100% - 72px) / 4);
     background: #fff;
-    max-width: 264px;
     border-radius: 0 0 4px 4px;
-    padding-block: 0px 32px;
     padding-inline: 0px;
 }
  
 .team-card img {
   width: 100%;
-  border-radius: 10px;
-  margin-bottom: 16px;
 }
 .subtitle {
     font-weight: 700;
@@ -371,9 +366,6 @@ box-sizing: border-box;
   .portfolio-item {
   position: relative;
   width: calc((100% - 48px) / 3); 
-  max-width: 360px;
-  overflow: hidden;
-  border-radius: 10px;
   background-color: #fff;
   }
   .contacts-item img {
@@ -384,7 +376,6 @@ box-sizing: border-box;
 
 .contacts-section {
   padding: 120px 0;
-  background-color: #f4f4f4;
 }
  .portfolio-list {
   display: flex;
@@ -413,8 +404,7 @@ box-sizing: border-box;
         letter-spacing: 0.02em;
         color: #f4f4fd;
         padding: 100px 0;
-        text-align: center;
-}
+ }
  .footer-logo {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -431,7 +421,6 @@ box-sizing: border-box;
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin: 0 auto;
 }
 .logo-part {
   font-family: 'Raleway', sans-serif;
